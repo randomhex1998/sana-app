@@ -11,6 +11,18 @@
     #995ef6
   );
 
+  .setting-area{
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    cursor: pointer;
+    z-index: 200;
+
+    i{
+        color: #ecf0f1;
+    }
+  }
+
   .top-section-content {
     position: relative;
     height: 100%;
