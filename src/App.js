@@ -1,7 +1,9 @@
-
+import Topsection from "./components/TopSction/Topsection";
 
 function App() {
-  return <h1>this is a text</h1>;
+  return (
+    <Topsection/>
+  );
 }
 
 export default App;

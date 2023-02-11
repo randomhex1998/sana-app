@@ -1,9 +1,11 @@
 import React from 'react';
+import TopSectionContent from './TopSectionContent';
+import Pic1 from "../../img/rayan.jpg";
 
 const Topsection = () => {
     return (
         <div className='top-section'>
-            555
+            <TopSectionContent ImgPic={Pic1}/>
         </div>
     );
 };

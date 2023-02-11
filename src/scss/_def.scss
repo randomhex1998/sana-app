@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 $main-font: "Roboto", sans-serif;
+$main-second-font: 'Raleway', sans-serif;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 * {
   margin: 0;
@@ -19,4 +27,12 @@ a {
 
 .container {
   padding: 2rem;
+}
+
+button{
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
 }
