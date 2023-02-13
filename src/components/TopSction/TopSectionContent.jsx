@@ -8,7 +8,6 @@ const TopSectionContent = ({ImgPic}) => {
                     <img src={ImgPic} className="profile-pic" alt="profile" />
                 </div>
             </div>
-
             <h2 className='top-section-title'>Rayan Jaberi</h2>
             <p className='top-section-sub'>Frontend web developer</p>
             <button className='top-section-btn'>Share Account</button>

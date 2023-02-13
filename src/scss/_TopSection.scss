@@ -17,7 +17,7 @@
     right: -90px;
     width: 200px;
     height: 200px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.11);
     border-radius: 50%;
     z-index: 1;
   }
@@ -80,6 +80,7 @@
       background-color: #322f5c;
       color: #fff;
       margin-top: 0.6rem;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
   }
 }
