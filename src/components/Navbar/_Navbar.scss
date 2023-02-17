@@ -9,15 +9,26 @@
   z-index: 999;
 
   .menu-area {
-    @include flexCenter;
-    gap: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
     padding: 1rem;
     font-family: $main-font;
     // font-size: 14px;
 
+    .nav-items {
+    }
+
     .nav-links {
       @include flexCenter;
       flex-direction: column;
+      gap: 0.5rem;
+      font-size: 12px;
+
+      i {
+        font-size: 21px !important;
+      }
     }
   }
 }
