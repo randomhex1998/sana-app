@@ -99,7 +99,7 @@
     align-items: center;
     flex-wrap: wrap;
     position: absolute;
-    top: -20px;
+    top: -35px;
     left: 15px;
     right: 15px;
     margin: 0 auto;
@@ -113,18 +113,20 @@
     @include flexCenter;
     flex-direction: column;
     gap: 0.5rem;
+    margin-top: 1rem;
 
     .profile-ico-area {
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
       border-radius: 50%;
       background-color: #7f7efe;
       @include flexCenter;
     }
 
     h4 {
-      font-family: $main-font !important;
-      font-size: 14px;
+      font-family: $main-font;
+      font-size: 13px;
+      font-weight: 600;
     }
   }
 }
