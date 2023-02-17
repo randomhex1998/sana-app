@@ -93,6 +93,18 @@
   height: 60vh;
   border-radius: 20px 20px 0 0;
 
+  .profile-opt-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    right: 15px;
+    margin: 0 auto;
+  }
+
   .profile-option {
     width: 150px;
     height: 120px;

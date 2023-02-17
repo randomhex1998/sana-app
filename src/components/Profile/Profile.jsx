@@ -16,6 +16,11 @@ const Profile = () => {
       <section className="profile-opt-area">
         <section className="profile-opt-wrapper">
           <ProfileOptions IcoName="fa-solid fa-store" OptionText="Shopping" />
+          <ProfileOptions IcoName="fa-solid fa-store" OptionText="Shopping" />
+          <ProfileOptions IcoName="fa-solid fa-store" OptionText="Shopping" />
+          <ProfileOptions IcoName="fa-solid fa-store" OptionText="Shopping" />
+          <ProfileOptions IcoName="fa-solid fa-store" OptionText="Shopping" />
+          <ProfileOptions IcoName="fa-solid fa-store" OptionText="Shopping" />
         </section>
       </section>
     </>
