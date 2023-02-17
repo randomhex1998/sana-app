@@ -11,7 +11,7 @@
     #995ef6
   );
 
-  .top-cloud-area{
+  .top-cloud-area {
     position: fixed;
     top: -90px;
     right: -90px;
@@ -22,15 +22,15 @@
     z-index: 1;
   }
 
-  .setting-area{
+  .setting-area {
     position: absolute;
     right: 15px;
     top: 25px;
     cursor: pointer;
     z-index: 200;
 
-    i{
-        color: #ecf0f1;
+    i {
+      color: #ecf0f1;
     }
   }
 
@@ -85,8 +85,11 @@
   }
 }
 
-.profile-opt-area{
-  background-color: crimson;
-  height: 51vh;
+.profile-opt-area {
+  position: absolute;
+  bottom: 15px;
+  background-color: #eee;
   width: 100%;
+  height: 60vh;
+  border-radius: 20px 20px 0 0;
 }
