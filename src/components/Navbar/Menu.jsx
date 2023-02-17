@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export const Menu = () => {
   return (
     <ul className="menu-area">
@@ -20,10 +21,10 @@ export const Menu = () => {
         </a>
       </li>
       <li className="nav-items">
-        <a href="#" className="nav-links">
+        <Link to="/profile" className="nav-links">
           <i className="fa-solid fa-user"></i>
           Profile
-        </a>
+        </Link>
       </li>
     </ul>
   );
