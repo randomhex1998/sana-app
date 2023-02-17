@@ -1,10 +1,10 @@
 import Navbar from "./components/Navbar/Navbar";
-import Topsection from "./components/TopSction/Topsection";
+import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
     <>
-      <Topsection />
+      <Profile />
       <Navbar />
     </>
   );
