@@ -3,8 +3,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #ecf0f1;
-  border-radius: 12px 12px 0 0;
+  background-color: #fff;
+  border-radius: 15px 15px 0 0;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
   z-index: 999;
 
@@ -15,16 +15,13 @@
     gap: 2rem;
     padding: 1rem;
     font-family: $main-font;
-    // font-size: 14px;
-
-    .nav-items {
-    }
 
     .nav-links {
       @include flexCenter;
       flex-direction: column;
       gap: 0.5rem;
       font-size: 12px;
+      color: #bdc3c7;
 
       i {
         font-size: 21px !important;
